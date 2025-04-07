@@ -1,0 +1,20 @@
+{
+    "SCREEN_WIDTH": 400,
+    "SCREEN_HEIGHT": 600,
+    "GRAVITY": 0.25,
+    "FLAP_STRENGTH": -7,
+    "PIPE_SPEED": 3,
+    "PIPE_GAP": 150,
+    "PIPE_FREQUENCY": 1500,
+    "BIRD_WIDTH": 34,
+    "BIRD_HEIGHT": 24,
+    "PLAYER_NAME": "Flappy X",
+    "GAME_TITLE": "Flappy Game",
+    "COLORS": {
+        "WHITE": [255, 255, 255],
+        "BLACK": [0, 0, 0],
+        "GREEN": [0, 255, 0],
+        "BLUE": [0, 0, 255],
+        "BACKGROUND": [0, 0, 255]
+    }
+} 

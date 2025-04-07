@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy X</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .game-info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .screenshot {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .screenshot img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .controls {
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .download {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .download a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .download a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Flappy X</h1>
+        <p>A personalized Flappy Bird game with AI integration</p>
+    </div>
+
+    <div class="game-info">
+        <h2>About the Game</h2>
+        <p>This is a personalized version of the classic Flappy Bird game, featuring:</p>
+        <ul>
+            <li>Custom character using your profile picture</li>
+            <li>AI integration using NEAT (NeuroEvolution of Augmenting Topologies)</li>
+            <li>Customizable game settings</li>
+            <li>Score tracking and high scores</li>
+        </ul>
+    </div>
+
+    <div class="screenshot">
+        <h2>Game Screenshot</h2>
+        <img src="game_screenshot.png" alt="Flappy Game Screenshot">
+    </div>
+
+    <div class="controls">
+        <h2>How to Play</h2>
+        <ul>
+            <li>Press SPACE to make the bird flap</li>
+            <li>Press R to restart after game over</li>
+            <li>Press A to toggle AI control</li>
+        </ul>
+    </div>
+
+    <div class="download">
+        <h2>Download and Play</h2>
+        <p>Get the game and start playing now!</p>
+        <a href="flappy_game.py" download>Download Game</a>
+    </div>
+
+    <div class="game-info">
+        <h2>Technical Details</h2>
+        <p>This game is built using:</p>
+        <ul>
+            <li>Python with Pygame</li>
+            <li>NEAT Python for AI implementation</li>
+            <li>Pillow for image processing</li>
+        </ul>
+    </div>
+</body>
+</html> 
